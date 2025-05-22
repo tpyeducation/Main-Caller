@@ -5,57 +5,58 @@ import uk.family.ecommerce.commonutils.CommonUtilities;
 public class CommonUtilitiesTest {
     public static void main(String[] args) {
 
-        //School sch =    new School();
         CommonUtilities CUEssentials = new CommonUtilities();
 
 
         // int GetHour
-        int hour = CUEssentials.getHour();
-        System.out.println(hour);
+       int abc = CUEssentials.getHour();
+       System.out.println(abc);
 
         // int GetMinute()
-        int minute = CUEssentials.getMinute();
-        System.out.println(minute);
+        int cde = CUEssentials.getMinute();
+        System.out.println(cde);
+
 
         // int getSecond ()
-        int second = CUEssentials.getSecond();
-        System.out.println(second);
+        int fg = CUEssentials.getSecond();
+        System.out.println(fg);
+
 
         //int getStringLength (String input)
-        int trb = CUEssentials.getStringLength("ThamesRiverBank");
-        System.out.println(trb);
+       int jkl = CUEssentials.getStringLength("projector");
+       System.out.println(jkl);
 
         //int GetNoofVowels (String input)
-        int gwe = CUEssentials.getNoOfVowels("gas water electricity");
-        System.out.println(gwe);
+        int mnop = CUEssentials.getNoOfVowels("cinema");
+        System.out.println(mnop);
 
         //String getReversedString(String input)
-         String k = CUEssentials.getReversedString("Countryside location");
-         System.out.println(k);
+        String qrst = CUEssentials.getReversedString("seaside");
+                System.out.println(qrst);
 
         //int getNoOfConsonents(String input)
-        int seventyfive = CUEssentials.getNoOfConsonents("Odeon");
-        System.out.println(seventyfive);
+          int xyz = CUEssentials.getNoOfConsonents("Jelly");
 
         //int getHowManyDaysOldIam(String inputDateStr)
-         int age = CUEssentials.getHowManyDaysOldIam( "2003-07-10");
+        int Age = CUEssentials.getHowManyDaysOldIam("2003-10-07");
+          System.out.println(Age);
 
         //String getCharAt(String input, int position)
-        String x = CUEssentials.getCharAt("abc", 2);
-        System.out.println(x);
+        String CharCount = CUEssentials.getCharAt("Bridge", 1);
+                System.out.println(CharCount);
 
         //int getStringLength(String input)
-        int Key = CUEssentials.getStringLength("Fifty");
-        System.out.println(Key);
+        int StringLength = CUEssentials.getStringLength("Culture");
+        System.out.println(StringLength);
 
         //String getAppendedString(String input1, String  input2, String  input3, String  input4, String  input5, String seperatedBy)
-        String Lock = CUEssentials.getAppendedString("Door", "Table", "Vanity", "Book",
-                "Shelf", ";");
-        System.out.println(Lock);
+      String Several = CUEssentials.getAppendedString("Furniture", "Bedroom", "Living room", "Bathroom", "Storage",
+              ";");
+      System.out.println(Several);
 
         //public int getStringLengthxx(String input, int i, int j, String pp)
-        int q = CUEssentials.getStringLengthxx("Cineworld", 12, 17, "Amazon Prime");
-        System.out.println(q);
+       int BMW = CUEssentials.getStringLengthxx("Lights", 12, 14, "Driving license");
+       System.out.println(BMW);
 
 
 
